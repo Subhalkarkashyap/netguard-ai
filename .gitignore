@@ -1,0 +1,39 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Node ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- App data ---
+backend/data/
+*.sqlite3
+*.db
+
+# --- Logs / build artifacts ---
+*.log
+frontend/tsconfig.tsbuildinfo
+
+# --- Tool-local state ---
+.freebuff/
